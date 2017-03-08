@@ -21,3 +21,15 @@ div {
 .box8 { background: rgb(102, 102, 255); }
 .box9 { background: rgb(102, 0, 255); }
 .box10 { background: rgb(102, 0, 204); }
+
+.box {
+  width: 33.333%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+}
