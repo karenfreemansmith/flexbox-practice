@@ -5,19 +5,61 @@
 }
 
 div {
-  font-size: 50px;
+  font-size: 24px;
   color: white;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.25);
   text-align: center;
 }
 
-.box1 { background: rgb(51, 153, 102); }
-.box2 { background: rgb(0, 204, 153); }
-.box3 { background: rgb(0, 255, 204); }
-.box4 { background: rgb(0, 255, 255); }
-.box5 { background: rgb(51, 204, 255); }
-.box6 { background: rgb(51, 153, 255); }
-.box7 { background: rgb(102, 153, 255); }
-.box8 { background: rgb(102, 102, 255); }
-.box9 { background: rgb(102, 0, 255); }
-.box10 { background: rgb(102, 0, 204); }
+.box1 {
+  background: rgb(51, 153, 102);
+  font-size: 12px;
+}
+.box2 {
+  background: rgb(0, 204, 153);
+  font-size: 24px;
+}
+.box3 {
+  background: rgb(0, 255, 204);
+  font-size: 36px;
+}
+.box4 {
+  background: rgb(0, 255, 255);
+  font-size: 48px;
+}
+.box5 {
+  background: rgb(51, 204, 255);
+  font-size: 60px;
+}
+.box6 {
+  background: rgb(51, 153, 255);
+  font-size: 60px;
+}
+.box7 {
+  background: rgb(102, 153, 255);
+  font-size: 48px;
+}
+.box8 {
+  background: rgb(102, 102, 255);
+  font-size: 36px;
+}
+.box9 {
+  background: rgb(102, 0, 255);
+  font-size: 24px;
+}
+.box10 {
+  background: rgb(102, 0, 204);
+  font-size: 12px;
+}
+
+.box {
+  padding: 1%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  min-height: 100vh;
+}
