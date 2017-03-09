@@ -23,5 +23,14 @@ div {
 .box10 { background: rgb(102, 0, 204); }
 
 .box {
-  width: 5%;
+  flex:1;
+  padding: 10px;
+}
+
+.bigbox {
+  flex: 3;
+}
+
+.container {
+  display: flex;
 }
